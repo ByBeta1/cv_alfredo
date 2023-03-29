@@ -1,0 +1,219 @@
+/* Estilos generales */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #212529!important;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.texto-negro {
+    color: #000;
+}
+
+.texto-blanco {
+    color:#fff;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
+/* Barra de navegacion */
+
+.navbar {
+    padding: 2rem;
+    background-color: #6c6c6d;
+    position: sticky ;
+    z-index: 1;
+    top: 0;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Sobre mi */
+
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.img-sobre-mi {
+    width: 200px;
+    height: 200px;
+    margin: 20x;
+    padding: 0px;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Lenguajes */
+
+.lenguajes {
+    padding: 40px;
+}
+
+.lenguajes .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.2 ease-in;
+}
+
+.lenguajes .columna:hover {
+    color: #fff;
+    background-color: #212529;
+}
+
+.lenguajes-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.icono-lenguaje {
+    font-size: 100px;
+    color: #000;
+}
+.lenguajec6:hover{
+    color: red;
+}
+.lenguajec6 {
+    
+    font-size: 3rem;
+    
+}
+
+.icono-lenguaje:hover {
+    color: #fd0d0d;
+}
+
+/* Experiencia */
+
+.experiencia {
+    padding: 40px;
+}
+
+.trabajo {
+    transition: all 0.2 ease-in;
+}
+
+.trabajo:hover {
+    color: #fff;
+    background-color: #212529;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+/* Proyectos: Laravel & PHP */
+
+
+.proyectos .carousel {
+    padding: 40px;
+}
+
+/* Contacto */
+
+.contacto {
+    padding: 40px;
+}
+
+.icono {
+    color:#fff;
+}
+
+.icono:hover {
+    color: #fd0d0d;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+body{
+
+    background-color: #212529;
+}
